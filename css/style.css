@@ -84,11 +84,12 @@ main{
     
 
 
-.col1{
+.col1, .col2{
     width: 250px;
     height: 150px;
     background-color: aqua;
     margin-left: 34px;
+    margin-bottom: 1px;
 }
 
 .raw2{
