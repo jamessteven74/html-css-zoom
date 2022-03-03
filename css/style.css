@@ -9,6 +9,7 @@
 body{
     width: 100vw;
     height: 100vh;
+    background-color: var(--deep-black);
     
 }
    
@@ -73,6 +74,8 @@ header{
 main{
     margin-top: 30px;
     display: flex;
+    flex-wrap: no-wrap
+   
 }
 
 
@@ -84,21 +87,99 @@ main{
     
 
 
-.col1, .col2{
-    width: 250px;
+
+.col1, .col2, .col3, .col4, .col5, .col6, .col7{
+    width: 180px;
     height: 150px;
-    background-color: aqua;
+   
     margin-left: 34px;
-    margin-bottom: 1px;
+    margin-bottom: 20px;
+    
 }
 
-.raw2{
+.raw2, .raw3, .raw4, .raw5, .col6{
     display: flex;
     flex-direction: column;
 }
 
-.col2{
-    width: 250px;
-    height: 150px;
-    background-color: rgb(255, 0, 212);
+.col1{
+    background-image:url(https://i.picsum.photos/id/0/5616/3744.jpg?hmac=3GAAioiQziMGEtLbfrdbcoenXoWAW-zlyEAMkfEdBzQ);
+    background-size: cover;
 }
+.col2{
+   background-image: url(https://i.picsum.photos/id/100/2500/1656.jpg?hmac=gWyN-7ZB32rkAjMhKXQgdHOIBRHyTSgzuOK6U0vXb1w);
+   background-size: cover;
+}
+
+
+
+.col3{
+    
+    background-image: url(https://i.picsum.photos/id/10/2500/1667.jpg?hmac=J04WWC_ebchx3WwzbM-Z4_KC_LeLBWr5LZMaAkWkF68);
+    background-size: cover;
+}
+
+
+
+.col4{
+    background-image:url(https://i.picsum.photos/id/1002/4312/2868.jpg?hmac=5LlLE-NY9oMnmIQp7ms6IfdvSUQOzP_O3DPMWmyNxwo);
+    background-size: cover;
+    
+}
+
+.col5{
+    background-image:url(https://i.picsum.photos/id/1016/3844/2563.jpg?hmac=WEryKFRvTdeae2aUrY-DHscSmZuyYI9jd_-p94stBvc);
+    background-size: cover;
+}
+
+.col6{
+    background-image: url(https://i.picsum.photos/id/1026/4621/3070.jpg?hmac=OJ880cIneqAKIwHbYgkRZxQcuMgFZ4IZKJasZ5c5Wcw);
+    background-size: cover;
+}
+
+.col7{
+   background-image: url(https://i.picsum.photos/id/1048/5616/3744.jpg?hmac=N5TZKe4gtmf4hU8xRs-zbS4diYiO009Jni7n50609zk);
+   background-size: cover;
+}
+
+/* #endregion-main */
+
+
+/* #region-footer */
+
+footer{
+    background-color: var(--grey);
+    display: flex;
+    height: 60px;
+}
+
+.mute{
+    /* background-color: #4BC800; */
+    width: 10%;
+    display: flex;
+    justify-content: space-evenly;
+    
+    align-items: center;
+
+}
+
+i{
+    color: var(--white);
+}
+
+.invite{
+    width: 80%;
+    background-color: deeppink;
+}
+
+.endmeeting{
+    width: 10%;
+    background-color: rgb(0, 81, 255);
+}
+
+h5{
+    text-align: center;
+    padding: 24px 0px;
+    color: #E01813;
+}
+    
